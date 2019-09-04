@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="bcellPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>pl.esm.elymph.bcell.entities.Operacje</class>
+    <class>pl.esm.elymph.bcell.entities.PozycjeFakt</class>
+    <class>pl.esm.elymph.bcell.entities.Towar</class>
+    <class>pl.esm.elymph.bcell.entities.KontCena</class>
+    <class>pl.esm.elymph.bcell.entities.AKomponenty</class>
+    <class>pl.esm.elymph.bcell.entities.SlownikiEntity</class>
+    <class>pl.esm.elymph.bcell.entities.ATowar</class>
+    <class>pl.esm.elymph.bcell.entities.Log</class>
+    <class>pl.esm.elymph.bcell.entities.ErrorLog</class>
+    <class>pl.esm.elymph.bcell.entities.Rabaty</class>
+    <class>pl.esm.elymph.bcell.entities.Baza</class>
+    <class>pl.esm.elymph.bcell.entities.Raporty</class>
+    <class>pl.esm.elymph.bcell.entities.GrupaKont</class>
+    <class>pl.esm.elymph.bcell.entities.ImpKom</class>
+    <class>pl.esm.elymph.bcell.entities.ImpFakt</class>
+    <class>pl.esm.elymph.bcell.entities.PowSlow</class>
+    <class>pl.esm.elymph.bcell.entities.GrupaTow</class>
+    <class>pl.esm.elymph.bcell.entities.KontSlow</class>
+    <class>pl.esm.elymph.bcell.entities.Import</class>
+    <class>pl.esm.elymph.bcell.entities.WzorKomp</class>
+    <class>pl.esm.elymph.bcell.entities.MvKomponPoz</class>
+    <class>pl.esm.elymph.bcell.entities.KomponZak</class>
+    <class>pl.esm.elymph.bcell.entities.KomponRab</class>
+    <class>pl.esm.elymph.bcell.entities.Stany</class>
+    <class>pl.esm.elymph.bcell.entities.WzorElem</class>
+    <class>pl.esm.elymph.bcell.entities.Moduly</class>
+    <class>pl.esm.elymph.bcell.entities.Uzytkownicy</class>
+    <class>pl.esm.elymph.bcell.entities.Elementy</class>
+    <class>pl.esm.elymph.bcell.entities.KomponElem</class>
+    <class>pl.esm.elymph.bcell.entities.AStany</class>
+    <class>pl.esm.elymph.bcell.entities.Bledy</class>
+    <class>pl.esm.elymph.bcell.entities.PozycjeKomp</class>
+    <class>pl.esm.elymph.bcell.entities.MigTowNew</class>
+    <class>pl.esm.elymph.bcell.entities.Domeny</class>
+    <class>pl.esm.elymph.bcell.entities.SlownikiCena</class>
+    <class>pl.esm.elymph.bcell.entities.Slowniki_1</class>
+    <class>pl.esm.elymph.bcell.entities.KomponCena</class>
+    <class>pl.esm.elymph.bcell.entities.DokPow</class>
+    <class>pl.esm.elymph.bcell.entities.DokPozycje</class>
+    <class>pl.esm.elymph.bcell.entities.Przedplaty</class>
+    <class>pl.esm.elymph.bcell.entities.Databasechangeloglock</class>
+    <class>pl.esm.elymph.bcell.entities.ImpPlany</class>
+    <class>pl.esm.elymph.bcell.entities.Pracownicy</class>
+    <class>pl.esm.elymph.bcell.entities.Licznik</class>
+    <class>pl.esm.elymph.bcell.entities.Teksty</class>
+    <class>pl.esm.elymph.bcell.entities.ImpPlanyUzyt</class>
+    <class>pl.esm.elymph.bcell.entities.Waluty</class>
+    <class>pl.esm.elymph.bcell.entities.Kontrahenci</class>
+    <class>pl.esm.elymph.bcell.entities.Dokumenty</class>
+    <class>pl.esm.elymph.bcell.entities.WartParam</class>
+    <class>pl.esm.elymph.bcell.entities.TabeleOperacji</class>
+    <class>pl.esm.elymph.bcell.entities.Zdarzenia</class>
+    <class>pl.esm.elymph.bcell.entities.Faktury</class>
+    <class>pl.esm.elymph.bcell.entities.Parametry</class>
+    <class>pl.esm.elymph.bcell.entities.KomponPoz</class>
+    <class>pl.esm.elymph.bcell.entities.ImpPozInw</class>
+    <class>pl.esm.elymph.bcell.entities.Komponenty</class>
+    <class>pl.esm.elymph.bcell.entities.ImpInw</class>
+    <class>pl.esm.elymph.bcell.entities.PrawaWMod</class>
+    <class>pl.esm.elymph.bcell.entities.Kalendarz</class>
+    <class>pl.esm.elymph.bcell.entities.Slowniki</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/magazyn?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="esmtechnology"/>
+    </properties>
+  </persistence-unit>
+</persistence>
